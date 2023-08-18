@@ -9,6 +9,7 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding-bottom: 40px;
 `
 
 const Wrapper = styled.div`
@@ -124,7 +125,7 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Here are some of my skills on which I have been working on.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
